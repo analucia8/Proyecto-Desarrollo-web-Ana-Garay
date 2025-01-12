@@ -111,7 +111,7 @@ footer {
     margin-top: 40px !important;
     border-top: 2px solid #ccc !important;
     padding-top: 20px !important;
-    font-size: small !important;
+    font-size: 0.75rem !important;
 }
 
 .btn {
@@ -147,6 +147,12 @@ p {
     margin: 0 auto;      /* Centra horizontalmente */
     width: 50%;          /* Mantiene la clase w-50, equivalente a width: 50% */
     border-radius: 10px;
+}
+
+
+.card iframe {
+    width: 100%; 
+    height: auto; 
 }
 
 
