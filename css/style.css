@@ -221,13 +221,13 @@ p {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 952px) {
     .containerProductosDestacados {
         display: none;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 952px) {
     .carousel {
 
         display: none;
@@ -242,13 +242,15 @@ p {
 #lista-productos-destacados-index {
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 5px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #lista-productos-destacados-index img {
     border-radius: 10px;
-    width: 350px;
+    width: 80%;
+    max-width: 350px;
     height: 450px;
     object-fit: cover;
 }
