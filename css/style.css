@@ -11,7 +11,7 @@
 
 body {
     font-family: "Noto Sans", sans-serif;
-    background-color:antiquewhite;
+    background-color: antiquewhite;
 }
 
 a {
@@ -19,53 +19,65 @@ a {
 }
 
 nav {
-    background-color: #004d40; /* Color de fondo del menú */
+    background-color: #004d40;
+    /* Color de fondo del menú */
     padding: 10px 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra debajo del menú */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Sombra debajo del menú */
 }
 
 /*Estilo imagen del banner*/
 .banner-img {
-    height: 50vh; 
-    width: 100vw; 
-    overflow: hidden; 
+    height: 50vh;
+    width: 100vw;
+    overflow: hidden;
 }
 
 .banner-img img {
-    height: 100%; 
-    width: 100%; 
-    object-fit: cover; 
-    object-position: center; 
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 /* Estilo menú de navegación */
 
 #listanavegacion {
-    list-style: none; /* Elimina los puntos de la lista */
+    list-style: none;
+    /* Elimina los puntos de la lista */
     margin: 0;
     padding: 0;
-    display: flex; /* Los elementos horizontales */
-    justify-content: center; /* Centra el menú */
-    gap: 20px; /* Espacio entre los elementos */
+    display: flex;
+    /* Los elementos horizontales */
+    justify-content: center;
+    /* Centra el menú */
+    gap: 20px;
+    /* Espacio entre los elementos */
 }
 
 #listanavegacion a {
-    color: antiquewhite; 
+    color: antiquewhite;
     font-size: 18px;
     font-weight: bold;
     padding: 10px 15px;
-    transition: all 0.3s ease; /* Suaviza las transiciones */
-    border-radius: 5px; /* Bordes redondeados */
+    transition: all 0.3s ease;
+    /* Suaviza las transiciones */
+    border-radius: 5px;
+    /* Bordes redondeados */
 }
 
 #listanavegacion a:hover {
-    background-color: #00695c; /* Color al pasar el mouse */
-    color: #ffffff; /* Color del texto al pasar el mouse */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra adicional al pasar el mouse */
+    background-color: #00695c;
+    /* Color al pasar el mouse */
+    color: #ffffff;
+    /* Color del texto al pasar el mouse */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    /* Sombra adicional al pasar el mouse */
 }
 
 #listanavegacion a:active {
-    background-color: #00332e; /* Color al hacer clic */
+    background-color: #00332e;
+    /* Color al hacer clic */
 }
 
 
@@ -73,12 +85,12 @@ nav {
 /*Estilos para dispositivos móviles barra navegación*/
 @media (max-width: 768px) {
     #listanavegacion {
-    display: flex;
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
 }
-    
+
 
 
 
@@ -95,17 +107,28 @@ h2 {
 }
 
 h1 {
-    font-size: 2.5rem;      /* Tamaño de letra grande para destacar el título */
-  font-weight: bold;      /* Texto en negrita */
-  color: #00695c;            /* Color oscuro para buena legibilidad */
-  text-align: center;     /* Centrado horizontal */
-  margin-top: 30px;       /* Separación superior desde el banner */
-  margin-bottom: 40px;    /* Separación inferior para mantener espacio */
-  padding: 10px;          /* Espaciado interno opcional */
-  text-transform: uppercase; /* Convierte el texto en mayúsculas */
-  letter-spacing: 2px;    /* Añade espaciado entre letras */
-  border-bottom: 2px solid #ccc; /* Línea inferior decorativa */
+    font-size: 2.5rem;
+    /* Tamaño de letra grande para destacar el título */
+    font-weight: bold;
+    /* Texto en negrita */
+    color: #00695c;
+    /* Color oscuro para buena legibilidad */
+    text-align: center;
+    /* Centrado horizontal */
+    margin-top: 30px;
+    /* Separación superior desde el banner */
+    margin-bottom: 40px;
+    /* Separación inferior para mantener espacio */
+    padding: 10px;
+    /* Espaciado interno opcional */
+    text-transform: uppercase;
+    /* Convierte el texto en mayúsculas */
+    letter-spacing: 2px;
+    /* Añade espaciado entre letras */
+    border-bottom: 2px solid #ccc;
+    /* Línea inferior decorativa */
 }
+
 footer {
     color: grey !important;
     margin-top: 40px !important;
@@ -117,20 +140,23 @@ footer {
 .btn {
     margin-top: 20px;
 }
+
 @media (max-width: 768px) {
     h1 {
-    font-size: 2rem
+        font-size: 2rem
     }
+
     footer {
         text-align: center;
     }
-        h2 {
-            font-size: 1.2em;
-        }
-        
-        p {
-            font-size: 1em;
-        }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
 }
 
 p {
@@ -143,16 +169,19 @@ p {
 
 
 .carousel-item img {
-    display: block;      /* Asegura que el comportamiento inline-block no interfiera */
-    margin: 0 auto;      /* Centra horizontalmente */
-    width: 50%;          /* Mantiene la clase w-50, equivalente a width: 50% */
+    display: block;
+    /* Asegura que el comportamiento inline-block no interfiera */
+    margin: 0 auto;
+    /* Centra horizontalmente */
+    width: 50%;
+    /* Mantiene la clase w-50, equivalente a width: 50% */
     border-radius: 10px;
 }
 
 
 .card iframe {
-    width: 100%; 
-    height: auto; 
+    width: 100%;
+    height: auto;
 }
 
 
@@ -168,27 +197,28 @@ p {
 .form-control {
     background-color: rgba(240, 248, 255, 0.909);
 }
+
 .form-select {
     background-color: rgba(240, 248, 255, 0.909);
 }
 
 
 @media (max-width: 768px) {
-.containerProductosDestacados {
-    display:none;
-}
+    .containerProductosDestacados {
+        display: none;
+    }
 }
 
 @media (min-width: 768px) {
-.carousel  {
+    .carousel {
 
-    display:none;
-}
+        display: none;
+    }
 }
 
 /*Estilos del Index */
 .card {
-background-color: antiquewhite;
+    background-color: antiquewhite;
 }
 
 #lista-productos-destacados-index {
@@ -197,7 +227,7 @@ background-color: antiquewhite;
     gap: 10px;
     justify-content: center;
 }
-    
+
 #lista-productos-destacados-index img {
     border-radius: 10px;
     width: 350px;
@@ -208,37 +238,49 @@ background-color: antiquewhite;
 
 /*Página de donde estamos */
 .contenido {
-    display: flex; /* Flexbox para alinear texto e imagen en línea */
-    justify-content: space-between; /* Espacio entre texto e imagen */
-    align-items: center; /* Centra verticalmente los elementos */
+    display: flex;
+    /* Flexbox para alinear texto e imagen en línea */
+    justify-content: space-between;
+    /* Espacio entre texto e imagen */
+    align-items: center;
+    /* Centra verticalmente los elementos */
     margin: 50px 10px;
-    background-color:#f9f9f9;
+    background-color: #f9f9f9;
     padding: 20px;
-    flex-wrap: wrap; /* Permite que los elementos se muevan si el espacio es limitado */
-    }
+    flex-wrap: wrap;
+    /* Permite que los elementos se muevan si el espacio es limitado */
+}
 
 .recuadrotexto {
-background-color: #f9f9f9;
-color: rgb(224, 167, 110); 
-flex: 1; /* Hace que el recuadro se ajuste proporcionalmente */
-max-width: 40%; /* Limita el ancho máximo del texto */
-padding: 10px;
-border: 3px solid;
-text-align: center;
+    background-color: #f9f9f9;
+    color: rgb(224, 167, 110);
+    flex: 1;
+    /* Hace que el recuadro se ajuste proporcionalmente */
+    max-width: 40%;
+    /* Limita el ancho máximo del texto */
+    padding: 10px;
+    border: 3px solid;
+    text-align: center;
 }
 
 .recuadroimagen {
-flex: 1; /* Hace que el recuadro se ajuste proporcionalmente */
-max-width: 40%; /* Limita el ancho máximo de la imagen */
-display: flex; /* Flexbox para centrar la imagen */
-justify-content: center;
-align-items: center;
+    flex: 1;
+    /* Hace que el recuadro se ajuste proporcionalmente */
+    max-width: 40%;
+    /* Limita el ancho máximo de la imagen */
+    display: flex;
+    /* Flexbox para centrar la imagen */
+    justify-content: center;
+    align-items: center;
 }
 
 .recuadroimagen img {
-max-width: 100%; /* Hace que la imagen no exceda el tamaño del contenedor */
-height: auto; /* Mantiene la proporción de la imagen */
-border: 3px solid #00695c; /* Opcional, para mantener consistencia con el diseño */
+    max-width: 100%;
+    /* Hace que la imagen no exceda el tamaño del contenedor */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+    border: 3px solid #00695c;
+    /* Opcional, para mantener consistencia con el diseño */
 }
 
 
@@ -249,8 +291,10 @@ border: 3px solid #00695c; /* Opcional, para mantener consistencia con el diseñ
 /* Diseño para escritorio */
 .contenidoProductosGrid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
-    grid-auto-flow: row dense; /* Mantiene el orden en filas densas */
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columnas */
+    grid-auto-flow: row dense;
+    /* Mantiene el orden en filas densas */
     column-gap: 10px;
     row-gap: 20px;
     padding: 0 30px;
@@ -259,47 +303,54 @@ border: 3px solid #00695c; /* Opcional, para mantener consistencia con el diseñ
 
 /* Imágenes */
 .itemGridProductos img {
-    width: 100%;            
-    height: 300px;           /* Altura fija para las imágenes */
-    object-fit: cover;       /* Mantiene proporciones sin deformar */
-    display: block;        
-    border-radius: 10px;    
+    width: 100%;
+    height: 300px;
+    /* Altura fija para las imágenes */
+    object-fit: cover;
+    /* Mantiene proporciones sin deformar */
+    display: block;
+    border-radius: 10px;
 }
 
 /* Descripciones */
 .itemGridProductos h2 {
-    font-size: 1.2rem;         
-    font-weight: bold;         
-    color: #333;               
-    text-align: center;        
-    margin-top: 10px;          
-    padding: 5px;              
-    line-height: 1.4;          
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    line-height: 1.4;
     text-transform: capitalize;
 }
 
 /* Diseño para móvil */
 @media (max-width: 768px) {
     .contenidoProductosGrid {
-        grid-template-columns: 1fr; /* 1 columna */
-        row-gap: 10px; /* Espaciado entre filas */
+        grid-template-columns: 1fr;
+        /* 1 columna */
+        row-gap: 10px;
+        /* Espaciado entre filas */
     }
 
     .itemGridProductos img {
-        width: 80%;            /* Reduce el ancho para hacerlas más pequeñas */
-    aspect-ratio: 1 / 1;   /* Mantiene un formato cuadrado */
-    object-fit: cover;     
-    display: block;        
-    border-radius: 10px;
-    margin: 0 auto; 
+        width: 80%;
+        /* Reduce el ancho para hacerlas más pequeñas */
+        aspect-ratio: 1 / 1;
+        /* Mantiene un formato cuadrado */
+        object-fit: cover;
+        display: block;
+        border-radius: 10px;
+        margin: 0 auto;
     }
 
     .itemGridProductos h2 {
         padding: 5px;
     }
 }
+
 /* estilo formulario*/
 .form-floating :hover {
     background-color: white;
-    
+
 }
