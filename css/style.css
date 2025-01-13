@@ -80,7 +80,14 @@ nav {
     /* Color al hacer clic */
 }
 
-
+.boton-productos {
+      position: fixed !important; 
+      top: 5px !important;     
+      left: 10px !important;
+}
+.boton-productos a {
+    color: white;
+}
 
 /*Estilos para dispositivos móviles barra navegación*/
 @media (max-width: 768px) {
@@ -88,6 +95,11 @@ nav {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    #listanavegacion a {
+        font-size: 15px;
     }
 }
 
